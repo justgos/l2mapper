@@ -1,0 +1,8 @@
+parnassus terrain - bright spots
+Ice Castle and DV terrain textures, mountain near Coliseum
+
+Rune_Tree_T_1.CURSE_MTREE_Shader
+
+Rune_Tree_T_1.CURSE_MTREE_PIECE_LEAF_FB
+
+exception on click on no-tile map place

@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\core\L2InputManager.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\L2Time.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\L2UIBaseWidget.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\L2UIBusyScreen.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\L2UIEditor.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\L2UIMain.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI\L2UIMap.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\L2Camera.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\L2LevelManager.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\L2Scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\AActor.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\L2LibVarsHolder.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\Platform_Win32.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\math.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UPackageManager.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UPackageMgr.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UPrimitive.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UStaticMesh.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UStaticMeshActor.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UProperty.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UShader.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UZoneInfo.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UTexture.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UTexModifier.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UTerrain.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UPackage.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UObject.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UObj.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UModel.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UMath.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UMaterial.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\ULevel.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UFinalBlend.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UCombiner.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UBrush.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\UBase.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\_shader.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Lib\utils.cpp">
+      <Filter>src\L2Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Geodata.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Skybox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2TextureManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\L2Window.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OpenGLImageLoader_Gdiplus.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\L2InputManager.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\L2Time.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI\L2UIBaseWidget.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI\L2UIBusyScreen.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI\L2UIEditor.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI\L2UIMain.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUI\L2UIMap.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\L2Camera.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\L2LevelManager.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\L2Scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\AActor.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\glext.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\L2LibVarsHolder.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\jArray.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\Platform_Win32.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\Platform.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\math.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UPackageManager.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UPackageMgr.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UPrimitive.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UStaticMesh.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UStaticMeshActor.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UProperty.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UShader.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UZoneInfo.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UTexture.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UTexModifier.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UTerrain.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UPackage.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UObject.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UObj.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UModel.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UMath.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UMaterial.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\ULevel.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UFinalBlend.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UEngine.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UCombiner.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UBrush.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\UBase.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\_shader.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\utils.h">
+      <Filter>src\L2Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\_afx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Geodata.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Skybox.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2TextureManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Window.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OpenGLImageLoader_Gdiplus.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\L2Lib\Singleton.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{13f219d4-c61c-4118-bef9-509e32526a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{386bc40a-865a-4898-a3d1-8bd875513081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GUI">
+      <UniqueIdentifier>{d2ece3b1-36aa-4a30-8fa2-6bdedb0d6b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\L2Lib">
+      <UniqueIdentifier>{56a590a8-c18a-45f3-ab80-eda0bc5224d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{7dc19fb6-2412-4e97-ba1b-250f1d2008d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{ea81026f-aaf4-4e30-8d35-45cb13f9cf4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_01.aps">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\l2pointer.cur">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\_01.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\icon1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
