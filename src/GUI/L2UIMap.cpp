@@ -238,7 +238,7 @@ void L2UIMap::onMapTileLoadClick(MyGUI::Widget* sender)
 				tileInfo->map_x = x;
 				tileInfo->map_y = y;
 				tiles->add(tileInfo);
-				//g_geo.Load(x, y);
+				g_geo.Load(x, y);
 				setTileState(x, y, tileState | L2UIMTS_LOADED | L2UIMTS_ACTIVE);
 			}
 			setTileState(x, y, getTileState(x, y) & ~L2UIMTS_SELECTED);

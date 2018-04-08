@@ -43,7 +43,7 @@ bool L2Geodata::Load(uint8 map_x, uint8 map_y)
 	_map_y = map_y;
 
 	char buf[256];
-	sprintf(buf, "E:/l2/freya/server/game/data/geodata/%d_%d.l2j", _map_x, _map_y);
+	sprintf(buf, "../geodata/%d_%d.l2j", _map_x, _map_y);
 
 	std::ifstream _f;
 	_f.open(buf, std::ios_base::binary);
@@ -206,12 +206,12 @@ bool L2Geodata::Load(uint8 map_x, uint8 map_y)
 					m_VertexArray[VArrayOffset + 11] = (j * 8 + u % 8) * GeoScale;
 
 					m_IndexArray[IArrayOffset + 0] = (uint32)(VArrayOffset / 12) * 4 + 0;
-					m_IndexArray[IArrayOffset + 1] = (uint32)(VArrayOffset / 12) * 4 + 3;
-					m_IndexArray[IArrayOffset + 2] = (uint32)(VArrayOffset / 12) * 4 + 1;
+					m_IndexArray[IArrayOffset + 2] = (uint32)(VArrayOffset / 12) * 4 + 3;
+					m_IndexArray[IArrayOffset + 1] = (uint32)(VArrayOffset / 12) * 4 + 1;
 
 					m_IndexArray[IArrayOffset + 3] = (uint32)(VArrayOffset / 12) * 4 + 3;
-					m_IndexArray[IArrayOffset + 4] = (uint32)(VArrayOffset / 12) * 4 + 2;
-					m_IndexArray[IArrayOffset + 5] = (uint32)(VArrayOffset / 12) * 4 + 1;
+					m_IndexArray[IArrayOffset + 5] = (uint32)(VArrayOffset / 12) * 4 + 2;
+					m_IndexArray[IArrayOffset + 4] = (uint32)(VArrayOffset / 12) * 4 + 1;
 
 					TexCoordsForNSWE(m_TexCoordArray._elems + (uint32)(VArrayOffset / 12) * 8, 0x0f);
 
@@ -250,12 +250,12 @@ bool L2Geodata::Load(uint8 map_x, uint8 map_y)
 					m_VertexArray[VArrayOffset + 11] = (j * 8 + u % 8) * GeoScale;
 
 					m_IndexArray[IArrayOffset + 0] = (uint32)(VArrayOffset / 12) * 4 + 0;
-					m_IndexArray[IArrayOffset + 1] = (uint32)(VArrayOffset / 12) * 4 + 3;
-					m_IndexArray[IArrayOffset + 2] = (uint32)(VArrayOffset / 12) * 4 + 1;
+					m_IndexArray[IArrayOffset + 2] = (uint32)(VArrayOffset / 12) * 4 + 3;
+					m_IndexArray[IArrayOffset + 1] = (uint32)(VArrayOffset / 12) * 4 + 1;
 
 					m_IndexArray[IArrayOffset + 3] = (uint32)(VArrayOffset / 12) * 4 + 3;
-					m_IndexArray[IArrayOffset + 4] = (uint32)(VArrayOffset / 12) * 4 + 2;
-					m_IndexArray[IArrayOffset + 5] = (uint32)(VArrayOffset / 12) * 4 + 1;
+					m_IndexArray[IArrayOffset + 5] = (uint32)(VArrayOffset / 12) * 4 + 2;
+					m_IndexArray[IArrayOffset + 4] = (uint32)(VArrayOffset / 12) * 4 + 1;
 
 					TexCoordsForNSWE(m_TexCoordArray._elems + (uint32)(VArrayOffset / 12) * 8, NSWE);
 
@@ -303,12 +303,12 @@ bool L2Geodata::Load(uint8 map_x, uint8 map_y)
 						m_VertexArray[VArrayOffset + 11] = (j * 8 + u % 8) * GeoScale;
 
 						m_IndexArray[IArrayOffset + 0] = (uint32)(VArrayOffset / 12) * 4 + 0;
-						m_IndexArray[IArrayOffset + 1] = (uint32)(VArrayOffset / 12) * 4 + 3;
-						m_IndexArray[IArrayOffset + 2] = (uint32)(VArrayOffset / 12) * 4 + 1;
+						m_IndexArray[IArrayOffset + 2] = (uint32)(VArrayOffset / 12) * 4 + 3;
+						m_IndexArray[IArrayOffset + 1] = (uint32)(VArrayOffset / 12) * 4 + 1;
 
 						m_IndexArray[IArrayOffset + 3] = (uint32)(VArrayOffset / 12) * 4 + 3;
-						m_IndexArray[IArrayOffset + 4] = (uint32)(VArrayOffset / 12) * 4 + 2;
-						m_IndexArray[IArrayOffset + 5] = (uint32)(VArrayOffset / 12) * 4 + 1;
+						m_IndexArray[IArrayOffset + 5] = (uint32)(VArrayOffset / 12) * 4 + 2;
+						m_IndexArray[IArrayOffset + 4] = (uint32)(VArrayOffset / 12) * 4 + 1;
 
 						TexCoordsForNSWE(m_TexCoordArray._elems + (uint32)(VArrayOffset / 12) * 8, NSWE);
 
